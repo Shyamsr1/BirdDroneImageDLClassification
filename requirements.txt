@@ -1,0 +1,19 @@
+# ---- Core numerical stack (TensorFlow) ----
+numpy==1.24.3
+protobuf==4.24.0
+tensorflow==2.12.0
+
+# ---- Data & image handling ----
+pillow==10.0.0
+opencv-python-headless==4.8.1.78
+matplotlib==3.7.2
+scikit-learn==1.3.0
+pandas==2.0.3
+pyyaml==6.0.1
+tqdm==4.66.1
+
+# ---- Streamlit app ----
+streamlit==1.32.0
+
+# ---- YOLOv8 (optional; pulls PyTorch automatically) ----
+ultralytics==8.1.0
